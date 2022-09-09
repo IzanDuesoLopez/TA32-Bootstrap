@@ -1,0 +1,58 @@
+.seccion1 {
+    height: 100vh;
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.display1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.inputs1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+p.titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+p.subtitulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.button1 {
+    background-image: linear-gradient(green, green);
+}
+
+.button2 {
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 6px 6px rgba(71, 71, 71, 0.486);
+}
